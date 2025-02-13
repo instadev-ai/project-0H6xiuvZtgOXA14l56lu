@@ -6,8 +6,13 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted" dir="rtl">
+      {/* Top Banner */}
+      <div className="bg-primary text-primary-foreground py-2 text-center font-bold">
+        בן לביא הוא בוט טורבו
+      </div>
+      
       {/* Header */}
-      <header className="fixed w-full top-0 z-50 border-b bg-background/80 backdrop-blur-sm">
+      <header className="fixed w-full top-8 z-50 border-b bg-background/80 backdrop-blur-sm">
         <div className="container flex items-center justify-between h-16">
           <div className="text-2xl font-bold">
             Logo
@@ -57,7 +62,7 @@ export default function LandingPage() {
       </header>
 
       {/* Main Content */}
-      <div className="container pt-24 pb-16">
+      <div className="container pt-32 pb-16">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold mb-6 text-center">
             וובינר בחינם לאנשים שרוצים להיות במסלול הנכון:
